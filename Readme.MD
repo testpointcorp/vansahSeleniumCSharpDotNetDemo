@@ -17,8 +17,8 @@ Vansah's API enables the integration of Vansah with a range of tools, automation
 
 ## Prerequisite
 
-* [Generate Vansah Connect Token ](https://docs.vansah.com/docs-base/generate-a-vansah-api-token-from-jira/)
-* [Atleast 1 Test Case linked to a Jira Issue to run](https://docs.vansah.com/docs-base/linking-test-cases-to-a-jira-issue/)
+* [Generate Vansah Connect Token ](https://help.vansah.com/en/articles/9824979-generate-a-vansah-api-token-from-jira)
+* [Atleast 1 Test Case linked to a Jira Issue to run](https://help.vansah.com/en/articles/9822263-linking-test-cases-to-a-jira-issue)
 * [Download Vansah API-Binding for C# from Github](https://github.com/testpointcorp/vansahSeleniumCSharpDotNetDemo)
 * [Selenium dependency should be installed ](https://github.com/testpointcorp/Vansah-CSharp-Binder/wiki/How-to-Install-Selenium-Dependency-in-Visual-Studio%3F)
 
@@ -33,7 +33,7 @@ Include [VansahNode.cs](https://github.com/testpointcorp/vansahSeleniumCSharpDot
 ### Step 2
 
 Configure VansahNode.cs file and paste your vansah connect token here 
-[Generate Vansah Connect Token ](https://docs.vansah.com/docs-base/generate-a-vansah-api-token-from-jira/)
+[Generate Vansah Connect Token ](https://help.vansah.com/en/articles/9824979-generate-a-vansah-api-token-from-jira)
 
 
 ![image](https://user-images.githubusercontent.com/95007067/245725004-0ed5e90b-6930-4b9e-8fa0-e7077305b933.png)
@@ -44,7 +44,7 @@ Provide your Jira Issue Key, Test Case Key and the result as per the below snipp
 
 👋 Note : 
 
-The Test Case must be [Linked](https://docs.vansah.com/docs-base/linking-test-cases-to-a-jira-issue/) to an Asset such as Jira Issue Key or TestFolder Identifier for which you want to send the Test Results. 
+The Test Case must be [Linked](https://help.vansah.com/en/articles/9822263-linking-test-cases-to-a-jira-issue) to an Asset such as Jira Issue Key or TestFolder Identifier for which you want to send the Test Results. 
 
 ```c#
 [Test]
