@@ -17,10 +17,10 @@ namespace Vansah
     public class VansahNode
     {
 
-
+        
         //--------------------------- ENDPOINTS -------------------------------------------------------------------------------
-        private static string api_Version = "v1";
-        private static string vansah_Url = "https://prod.vansahnode.app";
+        private static string api_Version = "v2";
+        private static string vansah_Url = "https://prod.vansah.com";
         private static string add_Test_Run = vansah_Url + "/api/" + api_Version + "/run";
         private static string add_Test_Log = vansah_Url + "/api/" + api_Version + "/logs";
         private static string update_Test_Log = vansah_Url + "/api/" + api_Version + "/logs/";
@@ -116,7 +116,7 @@ namespace Vansah
 
 
         //------------------------- VANSAH Add QUICK TEST --------------------------------------------------------------------------
-        //POST prod.vansahnode.app/api/v1/run --> https://apidoc.vansah.com/#0ebf5b8f-edc5-4adb-8333-aca93059f31c
+        //POST prod.vansahnode.app/api/v2/run --> https://apidoc.vansah.com/#0ebf5b8f-edc5-4adb-8333-aca93059f31c
         //creates a new test run and a new test log for the test case_key. By calling this endpoint, 
         //you will create a new log entry in Vansah with the respective overal Result. 
         //(0 = N/A, 1= FAIL, 2= PASS, 3 = Not Tested). Add_Quick_Test is useful for test cases in which there are no steps in the test script, 
